@@ -1,0 +1,205 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(78,63,251);
+    background: radial-gradient(circle, rgba(78,63,251,1) 0%, rgba(161,70,252,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #31343a;
+}
+
+.container {
+    width: 80%;
+    height: max-content;
+    background-color: #f4f9fd;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px #000000;
+        box-shadow: 0 0 10px #000000;
+}
+
+.header {
+    text-align: center;
+    background-color: #e1edf5;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cross.one {
+    margin-left: 18px;
+    filter: invert(47%) sepia(96%) saturate(405%) hue-rotate(150deg) brightness(88%) contrast(94%);
+}
+
+.cross.two {
+    margin-right: 18px;
+}
+
+.heading {
+    color: rgb(0, 0, 0);
+    font-family: "Kanit", sans-serif;
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.sharepage {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.copyandpaste.head {
+    margin-top: 30px;
+}
+
+.copyandpaste.link {
+    background-color: #e1edf5;
+    padding: 10px;
+    border: #cadae4 solid;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.copysvg {
+    margin-right: 10px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.sharepage {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sharetext {
+    margin-bottom: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.socialmedialinks {
+    padding-top: 15px;
+    width: 90%;
+    margin: 0 auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+
+.socialmediaicon {
+    padding: 50px;
+    background-color: #31343a;
+    height: 36px;
+    border: #000000 solid;
+    border-radius: 10px;
+}
+
+.socialmediaicon.one {
+    filter: invert(57%) sepia(27%) saturate(941%) hue-rotate(190deg) brightness(90%) contrast(88%);
+    background-color: #849df800;
+}
+
+.socialmediaicon.two {
+    background-color: #f4f9fd
+}
+
+.socialmediaicon.three {
+    filter: invert(19%) sepia(81%) saturate(4595%) hue-rotate(339deg) brightness(82%) contrast(127%);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.socialmediaicon.four {
+    filter: invert(34%) sepia(95%) saturate(1199%) hue-rotate(193deg) brightness(97%) contrast(96%);
+    background-color: #ffffff00;
+}
+
+.socialmediaicon.five {
+    filter: invert(19%) sepia(81%) saturate(4595%) hue-rotate(339deg) brightness(82%) contrast(127%);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.buttons {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.button {
+    border: 0px solid;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.share.button {
+    color: white;
+    background-color: turquoise;
+    padding: 15px;
+    width: 150px;
+    border: solid rgb(52, 185, 172);
+}
+
+.cancel.button {
+    background-color: #e1edf5;
+    padding: 15px;
+    width: 150px;
+    margin-left: 10px;
+    border: solid #cadae4;
+    color: #31343a;
+}
+
+@media (max-width: 386px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 460px) {
+   .buttons {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .cancel.button {
+    width: 150px;
+    margin: 0 auto;
+    display: none;
+   }
+
+   .share.button {
+    width: 150px;
+    margin: 0 auto;
+   }
+}
+
+@media (max-width: 798px) {
+    .socialmediaicon {
+        padding: 0;
+        border: 0;
+    }
+
+    .socialmedialinks {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 798px) {
+    .socialmediaicon {
+        padding: 30px;
+    }
+}
+
+.linktext {
+    opacity: 0;
+}
